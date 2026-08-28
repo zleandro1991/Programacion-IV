@@ -4,7 +4,7 @@
 
 console.log("=== 1. FUNCIÓN SALUDAR ===");
 function saludar(nombre) {
-    console.log(`Hola, ${nombre}, bienvenido/a`);
+    console.log(`Hola, ${nombre}, bienvenido!`);
 }
 saludar("Leandro");
 
@@ -49,7 +49,7 @@ function saludarConHora(nombre, hora = 12) {
         return `Buenas noches, ${nombre}`;
     }
 }
-console.log(saludarConHora("Leandro", 15)); // Con argumento de hora (tarde)
+console.log(saludarConHora("Leandro", 10)); // Con argumento de hora (mañana)
 console.log(saludarConHora("Yanet"));     // Sin argumento (usa default 12, tarde)
 
 
